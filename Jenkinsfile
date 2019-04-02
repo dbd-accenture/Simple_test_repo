@@ -6,5 +6,10 @@ pipeline {
         echo 'Este es un pipeline de test'
       }
     }
+    stage('') {
+      steps {
+        build 'Project Test_project_1'
+      }
+    }
   }
 }
